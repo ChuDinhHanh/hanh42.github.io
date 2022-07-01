@@ -17,9 +17,10 @@
 }
 /*css navbar*/
 .nav-item{
-     margin-left: 20px; 
+     margin-left: 10px; 
     
 }
+
 
 .child3{
    color: #e8cf4f !important;
@@ -40,7 +41,13 @@
     font-size: 1em;
     font-family:CustomFont2;
     font-weight: 500;
+  
 }
+
+
+
+
+
 
 .nav-item.last:last-child:hover{
     background-color: #b68bdb;
@@ -879,13 +886,12 @@ footer{
     transition:all 0.5s ease;
 }
 
-
   
 
 .dropdown.last-contact-menu:hover .dropdown-content{
     opacity: 1;
     z-index: 1;
-    left: -80px;
+    left: -90px;
 }
 
 
@@ -964,4 +970,112 @@ animation: chuyen 1.5s ease;
 .dropdown2:hover .dropdown-content {
     opacity: 1;
     z-index: 1;
+}
+
+.card_mobile-screen .navbar-toggler.mobile-button{
+    margin: 20px 0px 0px 80%;
+}
+
+.navbar-toggler-icon.mobile{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+}
+
+.card_img-mobile{
+   text-align: center;
+}
+
+.card_mobile-screen{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #323e45;
+    position: fixed;
+    display: none;
+    z-index: 1;
+}
+
+.card_in4-mobi{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 15px;
+    padding: 2px 0px;
+}
+
+.lay-in4-mobile{
+    padding: 0 25px 0 25px;
+    justify-content: center;
+}
+
+.item2-mobile2{
+    padding: 5px 10px;
+    background-color: #475258;
+    display: inline-block;
+   
+}
+
+.item1{
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+
+
+.card_find{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+input{
+    outline: none;
+    border: none;
+    /* padding-left: 20px; */
+}
+
+button{
+    border:  none;
+    outline: none;
+    background-color: transparent;
+}
+
+.find-search{
+    color: #aab9c1;
+    
+} 
+
+.find-search:hover{
+    color: #2c363b;
+}
+
+::placeholder{
+    color: #2c363b;
+}
+
+.card_father{
+    position: relative;
+}
+
+.card_contac.mobile{
+   position: absolute;
+   top: 0;
+   background-color: transparent;
+}
+
+.mobile-icon{
+    color: #e8cf4f;
+    transition:  all 0.5s ease;
+}
+
+.mobile-icon:hover{
+    color: white;
 }

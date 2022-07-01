@@ -18,3 +18,11 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+let x = document.querySelector('.navbar');
+$(Document).ready(function(){
+$('.navbar-toggler-icon').click(function(){
+  $('.card_mobile-screen').slideToggle();
+})
+})
