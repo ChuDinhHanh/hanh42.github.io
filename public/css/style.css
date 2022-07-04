@@ -415,7 +415,6 @@ h2{
 .write{
 font-size: 30px;
 font-family: CustomFont;
-margin-top: 18px;
 }
 .a-body2-2.body-3-btn{
 margin-top: 38px;
@@ -603,8 +602,7 @@ transition: all 0.2s ease;
 
 @media screen and (max-width: 992px) {
     .card_circle{
-        margin-top: 0px;
-        margin-bottom: 60px;
+        display: none;   
     }
   }
 
@@ -1078,4 +1076,29 @@ button{
 
 .mobile-icon:hover{
     color: white;
+}
+
+.close-item-mobile{
+animation: lonlen ease 1s ;
+}
+
+.item2-mobile2.up{
+  transform: rotatez(180deg);
+}
+
+.item2-mobile2{
+    color: white;
+      }
+
+@keyframes lonlen{
+    from{
+  transform: scale(0.1);
+    }to{
+transform: scale(1);
+    }
+}
+.para-mobile{
+    color: #fff;
+    font-family:CustomFont2;
+    margin-left: 10px;
 }
