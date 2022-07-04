@@ -41,13 +41,7 @@
     font-size: 1em;
     font-family:CustomFont2;
     font-weight: 500;
-  
 }
-
-
-
-
-
 
 .nav-item.last:last-child:hover{
     background-color: #b68bdb;
@@ -147,19 +141,20 @@
  }
 
  @media only screen and (max-width: 767px) { 
-
     .navbar {
          background: none repeat scroll 0 0 black;
+         position: fixed;
          top: -40px !important; 
          width: 100%;
  }
+}
   
 .card_layout {
         background-image: url(../images/header_bc-copyright.jpg);
         background-repeat: no-repeat;
         background-size: cover;
  }
-} 
+ 
 
 .item-square{
     padding:  2px;
@@ -530,7 +525,7 @@ display: none;
 
 @media screen and (max-width: 992px) {
     .card_contac {
-        bottom: 27.3%;
+        bottom: 26.4%;
     }
   } 
 
@@ -1102,3 +1097,12 @@ transform: scale(1);
     font-family:CustomFont2;
     margin-left: 10px;
 }
+
+
+
+@media screen and (max-width: 992px) {
+    .owl-carousel.owl-theme{
+        z-index: 0;
+        }
+} 
+

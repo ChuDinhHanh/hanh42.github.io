@@ -28,43 +28,44 @@ $('.navbar-toggler-icon').click(function(){
 })
 
 
+//mobile-slideUp | slidedown
 
-
-
-let btn1 =  document.querySelector('.item2-mobile2.btn1xxx');
-let btn2 = document.querySelector('.item2-mobile2.btn2xxx');
+let btn2 = document.querySelector('.item2-mobile2.btn2x');
 btn2.style.display ='none';
+let btn1 =  document.querySelector('.item2-mobile2.btn1x');
+let para = document.querySelector('.p1');
+para .style.display = 'none';
 $(document).ready(function(){
 
-  
-  $(".btn1xxx").click(function(){
-    $(".p1").slideUp();
-    btn2.style.display = 'block';
-    btn1.style.display = 'none';
-    btn2.style.color = 'yellow'
-  });
-
-
-  $(".btn2xxx").click(function(){
+  $(".btn2x").click(function(){
     $(".p1").slideDown();
     btn1.style.display = 'block';
     btn2.style.display = 'none';
     btn1.style.color = 'yellow'
   });
+  
+  $(".btn1x").click(function(){
+    $(".p1").slideUp();
+    btn2.style.display = 'block';
+    btn1.style.display = 'none';
+    btn2.style.color = 'yellow'
+  });
 });
 
-let btn4 = document.querySelector('.item2-mobile2.btn4xxx');
+let btn4 = document.querySelector('.item2-mobile2.btn4x');
 btn4.style.display ='none';
-let btn3 =  document.querySelector('.item2-mobile2.btn3xxx');
+let btn3 =  document.querySelector('.item2-mobile2.btn3x');
+let para2 = document.querySelector('.p2');
+para2.style.display = 'none';
 $(document).ready(function(){
-  $(".btn3xxx").click(function(){
+  $(".btn3x").click(function(){
     $(".p2").slideUp();
     btn4.style.display = 'block';
     btn3.style.display = 'none';
     btn4.style.color = 'yellow'
   });
 
-  $(".btn4xxx").click(function(){
+  $(".btn4x").click(function(){
     $(".p2").slideDown();
     btn3.style.display = 'block';
     btn4.style.display = 'none';
@@ -72,18 +73,20 @@ $(document).ready(function(){
   });
 });
 
-let btn6 = document.querySelector('.item2-mobile2.btn6xxx');
+let btn6 = document.querySelector('.item2-mobile2.btn6x');
 btn6.style.display ='none';
-let btn5 =  document.querySelector('.item2-mobile2.btn5xxx');
+let btn5 =  document.querySelector('.item2-mobile2.btn5x');
+let para3 = document.querySelector('.p3');
+para3.style.display = 'none';
 $(document).ready(function(){
-  $(".btn5xxx").click(function(){
+  $(".btn5x").click(function(){
     $(".p3").slideUp();
     btn6.style.display = 'block';
     btn5.style.display = 'none';
     btn6.style.color = 'yellow'
   });
 
-  $(".btn6xxx").click(function(){
+  $(".btn6x").click(function(){
     $(".p3").slideDown();
     btn5.style.display = 'block';
     btn6.style.display = 'none';
@@ -91,18 +94,20 @@ $(document).ready(function(){
   });
 });
 
-let btn8 = document.querySelector('.item2-mobile2.btn8xxx');
+let btn8 = document.querySelector('.item2-mobile2.btn8x');
 btn8.style.display ='none';
-let btn7 =  document.querySelector('.item2-mobile2.btn7xxx');
+let btn7 =  document.querySelector('.item2-mobile2.btn7x');
+let para4 = document.querySelector('.p4');
+para4.style.display = 'none';
 $(document).ready(function(){
-  $(".btn7xxx").click(function(){
+  $(".btn7x").click(function(){
     $(".p4").slideUp();
     btn8.style.display = 'block';
     btn7.style.display = 'none';
     btn8.style.color = 'yellow'
   });
 
-  $(".btn8xxx").click(function(){
+  $(".btn8x").click(function(){
     $(".p4").slideDown();
     btn7.style.display = 'block';
     btn8.style.display = 'none';
@@ -110,18 +115,20 @@ $(document).ready(function(){
   });
 });
 
-let btn10 = document.querySelector('.item2-mobile2.btn10xxx');
+let btn10 = document.querySelector('.item2-mobile2.btn10x');
 btn10.style.display ='none';
-let btn9 =  document.querySelector('.item2-mobile2.btn9xxx');
+let btn9 =  document.querySelector('.item2-mobile2.btn9x');
+let para5 = document.querySelector('.p5');
+para5.style.display = 'none';
 $(document).ready(function(){
-  $(".btn9xxx").click(function(){
+  $(".btn9x").click(function(){
     $(".p5").slideUp();
     btn10.style.display = 'block';
     btn9.style.display = 'none';
     btn10.style.color = 'yellow'
   });
 
-  $(".btn10xxx").click(function(){
+  $(".btn10x").click(function(){
     $(".p5").slideDown();
     btn9.style.display = 'block';
     btn10.style.display = 'none';
@@ -130,24 +137,28 @@ $(document).ready(function(){
 });
 
 
-let btn12 = document.querySelector('.item2-mobile2.btn12xxx');
+let btn12 = document.querySelector('.item2-mobile2.btn12x');
 btn12.style.display ='none';
-let btn11 =  document.querySelector('.item2-mobile2.btn11xxx');
+let btn11 =  document.querySelector('.item2-mobile2.btn11x');
+let para6 = document.querySelector('.p6');
+para6.style.display = 'none';
 $(document).ready(function(){
-  $(".btn11xxx").click(function(){
+  $(".btn11x").click(function(){
     $(".p6").slideUp();
     btn12.style.display = 'block';
     btn11.style.display = 'none';
     btn12.style.color = 'yellow'
   });
 
-  $(".btn12xxx").click(function(){
+  $(".btn12x").click(function(){
     $(".p6").slideDown();
     btn11.style.display = 'block';
     btn12.style.display = 'none';
     btn11.style.color = 'yellow'
   });
 });
+
+
 
 //carousel
 $('.owl-carousel').owlCarousel({
